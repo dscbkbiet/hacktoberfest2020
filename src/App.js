@@ -3,7 +3,9 @@ import './App.css';
 import {Route, BrowserRouter as Router, Switch, Link} from "react-router-dom";
 
 import Hacker from './Hackers/Hacker';
+import Aniket from './Hackers/Aniket';
 import Home from './Hackers/Home';
+
 
 function App() {
   return (
@@ -24,6 +26,10 @@ function App() {
 
           <li>
             <Link to="/hacker">Hacker Name</Link>
+          </li>
+
+          <li>
+            <Link to="/hacker">Aniket</Link>
           </li>
         </ul>
       </nav>
