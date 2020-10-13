@@ -3,6 +3,7 @@ import './App.css';
 import {Route, BrowserRouter as Router, Switch, Link} from "react-router-dom";
 
 import Hacker from './Hackers/Hacker';
+import Nidhi from './Hackers/Nidhi';
 import Home from './Hackers/Home';
 
 function App() {
@@ -24,6 +25,10 @@ function App() {
 
           <li>
             <Link to="/hacker">Hacker Name</Link>
+          </li>
+
+          <li>
+            <Link to="/nidhi">Nidhi</Link>
           </li>
         </ul>
       </nav>
