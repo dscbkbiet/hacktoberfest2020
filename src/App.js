@@ -3,8 +3,21 @@ import './App.css';
 import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
 
 import Hacker from './Hackers/Hacker';
+
 import Ramakrishna from './Hackers/Ramakrishna';
+
+
+import Nidhi from './Hackers/Nidhi';
+
+
+import Aniket from './Hackers/Aniket';
+
+import Shreya from './Hackers/Shreya';
+
+
+
 import Home from './Hackers/Home';
+
 
 function App() {
     return (
@@ -18,6 +31,7 @@ function App() {
         </Switch>
 
         <nav>
+
             <ul>
                 <li>
                     <Link to = "/">Home</Link>
@@ -33,6 +47,8 @@ function App() {
         </nav>
         </Router></div>
     );
+
+     
 }
 
 export default App;
